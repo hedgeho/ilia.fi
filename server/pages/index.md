@@ -1,3 +1,1 @@
-# Ilia Zalesskii - Data Scientist
-
-*bio*
+todo personal site
