@@ -40,7 +40,7 @@ func hello(w http.ResponseWriter, req *http.Request) {
 func StartServer() {
 	http.HandleFunc("/", root)
 	http.HandleFunc("/hello", hello)
-	err := http.ListenAndServe(":8080", nil)
+	err := http.ListenAndServe(":6969", nil)
 	if err != nil {
 		fmt.Println("Error starting server:", err)
 	}
