@@ -19,7 +19,7 @@ jobs:
       - name: Login to GHCR, build and push
         run: |
           docker login --username ${{ github.actor }} --password ${{ secrets.GH_PAT }} ghcr.io
-          docker build . --tag ghcr.io/${{ github.action.repository }}:latest
+          docker build . --tag ghcr.io/${{ github.repository }}:latest
 
-          docker push ghcr.io/${{ github.action.repository }}:latest
+          docker push ghcr.io/${{ github.repository }}:latest
     
