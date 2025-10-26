@@ -1,0 +1,3 @@
+ilia.fi {
+    reverse_proxy go-server:6969
+}

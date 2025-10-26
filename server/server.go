@@ -38,6 +38,8 @@ func hello(w http.ResponseWriter, req *http.Request) {
 }
 
 func StartServer() {
+	fmt.Println("Starting server on :6969")
+
 	http.HandleFunc("/", root)
 	http.HandleFunc("/hello", hello)
 	err := http.ListenAndServe(":6969", nil)
