@@ -11,7 +11,7 @@ RUN go build -o /app ./server/server.go
 FROM alpine:latest AS run
 
 COPY --from=build /app /app
+COPY server/static /static
 
-#WORKDIR /
 EXPOSE 6969
 CMD ["/app"]

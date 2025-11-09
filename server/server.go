@@ -27,6 +27,7 @@ func root(w http.ResponseWriter, req *http.Request) {
 <head>
 	<meta charset="utf-8">
 	<title>Ilia Zalesskii</title>
+	<link rel="stylesheet" href="/static/style.css">
 </head>
 <body>
 %s
@@ -61,6 +62,10 @@ func StartServer() {
 
 	http.HandleFunc("/", root)
 	http.HandleFunc("/hello", hello)
+
+	http.Handle("/static/", http.StripPrefix("/static/",
+		http.FileServer(http.Dir("static"))))
+
 	err := http.ListenAndServe(":6969", nil)
 	if err != nil {
 		fmt.Println("Error starting server:", err)
