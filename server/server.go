@@ -35,6 +35,10 @@ func hello(w http.ResponseWriter, req *http.Request) {
 		err := ctx.Err()
 		fmt.Println("Request cancelled:", err)
 	}
+	_, err := w.Write([]byte("sup\n"))
+	if err != nil {
+		fmt.Println("Error writing response:", err)
+	}
 }
 
 func StartServer() {
