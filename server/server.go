@@ -34,10 +34,11 @@ func hello(w http.ResponseWriter, req *http.Request) {
 	case <-ctx.Done():
 		err := ctx.Err()
 		fmt.Println("Request cancelled:", err)
-	}
-	_, err := w.Write([]byte("sup\n"))
-	if err != nil {
-		fmt.Println("Error writing response:", err)
+	default:
+		_, err := w.Write([]byte("sup"))
+		if err != nil {
+			fmt.Println("Error writing response:", err)
+		}
 	}
 }
 
