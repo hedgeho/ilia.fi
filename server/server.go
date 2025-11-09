@@ -11,7 +11,9 @@ import (
 //go:embed pages/index.md
 var rootPage string
 
+// to be adapted as a generic page rendering function
 func root(w http.ResponseWriter, req *http.Request) {
+	// ref: https://github.com/yuin/goldmark
 	md := goldmark.New()
 	var buf bytes.Buffer
 	if err := md.Convert([]byte(rootPage), &buf); err != nil {
@@ -19,7 +21,19 @@ func root(w http.ResponseWriter, req *http.Request) {
 		return
 	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
-	_, err := w.Write(buf.Bytes())
+
+	html := fmt.Sprintf(`<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Ilia Zalesskii</title>
+</head>
+<body>
+%s
+</body>
+</html>`, buf.String())
+
+	_, err := w.Write([]byte(html))
 	if err != nil {
 		fmt.Println("Error writing response:", err)
 	}
