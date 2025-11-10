@@ -11,4 +11,4 @@ Based in Otaniemi, Finland.
 
 [Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho)
 
-Written in Go, hosted with Docker on Hetzner.
+Written in Go, hosted with Docker on Hetzner. More to come.
