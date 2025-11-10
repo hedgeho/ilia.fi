@@ -5,16 +5,30 @@ import (
 	_ "embed"
 	"fmt"
 	"github.com/yuin/goldmark"
+	"github.com/yuin/goldmark/parser"
+	"github.com/yuin/goldmark/renderer/html"
 	"net/http"
 )
 
+// todo render markdown files in advance and serve static html files (?)
+//
 //go:embed pages/index.md
 var rootPage string
+
+//go:embed template.html
+var templateHTML string
 
 // to be adapted as a generic page rendering function
 func root(w http.ResponseWriter, req *http.Request) {
 	// ref: https://github.com/yuin/goldmark
-	md := goldmark.New()
+	md := goldmark.New(
+		goldmark.WithParserOptions(
+			parser.WithAutoHeadingID(),
+		),
+		goldmark.WithRendererOptions(
+			html.WithUnsafe(),
+		),
+	)
 	var buf bytes.Buffer
 	if err := md.Convert([]byte(rootPage), &buf); err != nil {
 		http.Error(w, "Failed to render markdown", http.StatusInternalServerError)
@@ -22,19 +36,9 @@ func root(w http.ResponseWriter, req *http.Request) {
 	}
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 
-	html := fmt.Sprintf(`<!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<title>Ilia Zalesskii</title>
-	<link rel="stylesheet" href="/static/style.css">
-</head>
-<body>
-%s
-</body>
-</html>`, buf.String())
+	renderedHtml := fmt.Sprintf(templateHTML, buf.String())
 
-	_, err := w.Write([]byte(html))
+	_, err := w.Write([]byte(renderedHtml))
 	if err != nil {
 		fmt.Println("Error writing response:", err)
 	}
