@@ -21,15 +21,8 @@ I love solving ambiguous problems, and I have experience from founding teams, ha
 
 Based in Otaniemi, Finland.
 
-
-### Projects 
-
-- Junction 2025: Visual novel-based MMO game teaching Finnish kids financial literacy in a familiar setting. **[demo](https://kalevala.ilia.fi)** | [GitHub](https://github.com/hedgeho/financial-kalevala)
-
-- HackZurich 2023 🥈: "Smart pomodoro" desktop app that nudges for breaks based on keyboard and mouse usage. **[video](https://devpost.com/software/logicare-n9l46r) | [GitHub](https://github.com/Henrikarba/logicare)
-
 ---
 
 [Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho) | <script language="javascript">ZIIgVMCeIFxzVzD();</script>
 
-Written in Go, hosted with Docker on Hetzner. More to come.
+Overengineered with Go, Docker and Hetzner. More to come.
