@@ -21,6 +21,18 @@ I love solving ambiguous problems, and I have experience from founding teams, ha
 
 Based in Otaniemi, Finland.
 
+### Projects
+
+- [Kalevala MMO](https://kalevala.ilia.fi) is a PoC of a visual novel-based MMO game teaching Finnish kids financial literacy in a familiar setting (Junction 2025).
+
+[//]: # (- Junction 2025: Visual novel-based MMO game teaching Finnish kids financial literacy in a familiar setting. **[demo]&#40;https://kalevala.ilia.fi&#41;** | [GitHub]&#40;https://github.com/hedgeho/financial-kalevala&#41;)
+
+- [LogiCare](https://devpost.com/software/logicare-n9l46r) is a "smart Pomodoro" desktop app that nudges for breaks when you actually need them, based on keyboard and mouse usage (2nd place at HackZurich 2023).
+
+- [SoTA Transiting Exoplanet Detection Algorithms](/static/bsc_thesis.pdf) reviews the best machine learning approaches to find planets outside of our solar system (BSc thesis at Aalto University, 2024).
+
+todo add the rest
+
 ---
 
 [Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho) | <script language="javascript">ZIIgVMCeIFxzVzD();</script>
