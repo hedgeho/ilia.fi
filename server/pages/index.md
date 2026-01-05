@@ -37,4 +37,4 @@ todo add the rest
 
 [Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho) | <script language="javascript">ZIIgVMCeIFxzVzD();</script>
 
-Overengineered with Go, Docker and Hetzner. More to come.
+Slightly overengineered with Go, Docker and Hetzner. More to come.
