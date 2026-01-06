@@ -27,7 +27,7 @@ Based in Otaniemi, Finland.
 
 - [SoTA Transiting Exoplanet Detection Algorithms](/static/bsc_thesis.pdf) reviews the best machine learning approaches to find planets outside of our solar system (BSc thesis at Aalto University, 2024).
 
-- [Kalevala MMO](https://kalevala.ilia.fi) is a PoC of a visual novel-based MMO game teaching Finnish kids financial literacy in a familiar setting (Junction 2025).
+- [Kalevala MMO](https://kalevala.ilia.fi) is a PoC of a visual novel-based game teaching Finnish kids financial literacy in a familiar setting (Junction 2025).
 
 - [Clean self-hosting setup](https://github.com/hedgeho/vps_deployment), which automates deployment of this website and other hosted services using GHCR & simple scripts.
 
