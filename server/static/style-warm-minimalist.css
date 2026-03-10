@@ -37,6 +37,10 @@ hr {
     margin: 2em 0;
 }
 
+html {
+    overflow-x: hidden;
+}
+
 img.profile {
     border-radius: 50%;
     width: 240px;
@@ -47,5 +51,10 @@ img.profile {
 @media (max-width: 650px) {
     body {
         margin: 32px auto;
+    }
+
+    img.profile {
+        width: 120px;
+        height: 120px;
     }
 }
