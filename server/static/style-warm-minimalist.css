@@ -43,3 +43,9 @@ img.profile {
     height: 240px;
     object-fit: cover;
 }
+
+@media (max-width: 650px) {
+    body {
+        margin: 32px auto;
+    }
+}
