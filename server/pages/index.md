@@ -1,18 +1,3 @@
-<script language="javascript">
-function ZIIgVMCeIFxzVzD()
-{
-var GNMxQFUGUaUUrDY=["x68","x69","64","x69","x6c","105","97","46","x66","x69"];
-var qLVlgKVAwdtgXvL=[""];
-var GdvmpgYumETazXT=["x68","105","x40","x69","x6c","x69","97","46","x66","x69"];
-document.write("<a href=\"&#x6d;&#x61;&#x69;&#x6c;&#x74;&#111;&#x3a;");
-for (i=0; i<GNMxQFUGUaUUrDY.length; i++) document.write('&#'+GNMxQFUGUaUUrDY[i]+';');
-for (i=0; i<qLVlgKVAwdtgXvL.length; i++) document.write(qLVlgKVAwdtgXvL[i]);
-document.write('" style="" class="" id="">');
-for (i=0; i<GdvmpgYumETazXT.length; i++) document.write('&#'+GdvmpgYumETazXT[i]+';');
-document.write('</a>');
-}
-</script>
-
 # Ilia Zalesskii <img src="/static/face_less_crop.jpg" class="profile" style="float: right; margin: 0 0 20px 20px;">
 
 I am a data scientist who builds practical solutions on the intersections between technology and business. Currently wrapping up my Master's degree in Strategy & Organizational Design, while working as a data scientist at [CWire](https://cwire.com).
@@ -35,6 +20,6 @@ todo add the rest
 
 ---
 
-[Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho) | <script language="javascript">ZIIgVMCeIFxzVzD();</script>
+[Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho) | [hi@ilia.fi](mailto:hi@ilia.fi)
 
 Slightly overengineered with Go, Docker and Hetzner. More to come.

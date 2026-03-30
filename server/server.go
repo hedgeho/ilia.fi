@@ -8,6 +8,7 @@ import (
 	"github.com/yuin/goldmark/parser"
 	"github.com/yuin/goldmark/renderer/html"
 	"net/http"
+	"strings"
 )
 
 // todo render markdown files in advance and serve static html files (?)
@@ -37,6 +38,7 @@ func root(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 
 	renderedHtml := fmt.Sprintf(templateHTML, buf.String())
+	renderedHtml = strings.ReplaceAll(renderedHtml, "hi@ilia.fi", "&#104;&#105;&#64;&#105;&#108;&#105;&#97;&#46;&#102;&#105;")
 
 	_, err := w.Write([]byte(renderedHtml))
 	if err != nil {
