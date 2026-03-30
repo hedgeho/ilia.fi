@@ -10,11 +10,11 @@ Based in Otaniemi, Finland.
 
 - [LogiCare](https://devpost.com/software/logicare-n9l46r) is a "smart Pomodoro" desktop app that nudges for breaks when you actually need them, based on keyboard and mouse usage (2nd place at HackZurich 2023).
 
-- [SoTA Transiting Exoplanet Detection Algorithms](/static/bsc_thesis.pdf) reviews the best machine learning approaches to find planets outside of our solar system (BSc thesis at Aalto University, 2024).
+- My BSc thesis [SoTA Transiting Exoplanet Detection Algorithms](/static/bsc_thesis.pdf) reviews the best machine learning approaches to find planets outside of our solar system (BSc thesis at Aalto University, 2024).
 
 - [Kalevala MMO](https://kalevala.ilia.fi) is a PoC of a visual novel-based game teaching Finnish kids financial literacy in a familiar setting (Junction 2025).
 
-- [Clean self-hosting setup](https://github.com/hedgeho/vps_deployment), which automates deployment of this website and other hosted services using GHCR & simple scripts.
+- My [self-hosting setup](https://github.com/hedgeho/vps_deployment), which automates deployment of this website and other hosted services using GHCR & simple scripts.
 
 todo add the rest
 
