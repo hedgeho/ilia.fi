@@ -38,7 +38,7 @@ func root(w http.ResponseWriter, req *http.Request) {
 	w.Header().Set("Content-Type", "text/html; charset=utf-8")
 
 	renderedHtml := fmt.Sprintf(templateHTML, buf.String())
-	renderedHtml = strings.ReplaceAll(renderedHtml, "hi@ilia.fi", "&#104;&#105;&#64;&#105;&#108;&#105;&#97;&#46;&#102;&#105;")
+	renderedHtml = strings.ReplaceAll(renderedHtml, "hello@ilia.fi", "&#104;&#101;&#108;&#108;&#111;&#64;&#105;&#108;&#105;&#97;&#46;&#102;&#105;")
 
 	_, err := w.Write([]byte(renderedHtml))
 	if err != nil {

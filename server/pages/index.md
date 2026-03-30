@@ -20,6 +20,6 @@ todo add the rest
 
 ---
 
-[Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho) | [hi@ilia.fi](mailto:hi@ilia.fi)
+[Linkedin](https://linkedin.com/in/ilia-z) | [Github](https://github.com/hedgeho) | [hello@ilia.fi](mailto:hello@ilia.fi)
 
 Slightly overengineered with Go, Docker and Hetzner. More to come.
