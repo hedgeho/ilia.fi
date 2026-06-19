@@ -14,7 +14,7 @@ Based in Otaniemi, Finland.
 
 - [Kalevala MMO](https://kalevala.ilia.fi) is a PoC of a visual novel-based game teaching Finnish kids financial literacy in a familiar setting (Junction 2025).
 
-- My [self-hosting setup](https://github.com/hedgeho/vps_deployment), which automates deployment of this website and other hosted services using GHCR & simple scripts.
+- My [open source contributions](https://maartengr.github.io/BERTopic/changelog.html#version-0170:~:text=Lightweight%20installation%3A%20use%20safetensors%20without%20torch%20by%20%40hedgeho%20in%20%232306)
 
 todo add the rest
 
